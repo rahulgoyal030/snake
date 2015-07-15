@@ -114,7 +114,7 @@ class MyFrame  implements ActionListener,KeyListener
 
     // nextInt is normally exclusive of the top value,
     // so add 1 to make it inclusive
-     randomNum = rand.nextInt(600)+1 ;
+     randomNum = rand.nextInt(600)+1 ;                   // nextInt( max-min+1) + min
     if(randomNum==0)
          	randomNum=5;
 
